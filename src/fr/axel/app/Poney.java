@@ -20,7 +20,7 @@ public class Poney {
 	public String getName() { //MAJ Arnaud
 		return name;
 	}
-	public void setName(String name) {
+	public void setName( String name) {
 		this.name = name;
 	}	
 }
