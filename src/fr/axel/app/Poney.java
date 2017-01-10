@@ -2,7 +2,7 @@ package fr.axel.app;
 
 public class Poney {
 	public int age;
-	public String color;
+	public String coloration;
 	public String name;
 
 	public int getAge() {
@@ -12,10 +12,10 @@ public class Poney {
 		this.age = age;
 	}
 	public String getColor() {
-		return color;
+		return coloration;
 	}
 	public void setColor(String color) {
-		this.color = color;
+		this.coloration = coloration;
 	}
 	public String getName() { //MAJ Arnaud
 		return name;
