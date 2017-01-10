@@ -17,13 +17,6 @@ public class Poney {
 	public void setColor(String color) { //MAJ Arnaud //MAJ Arnaud //MAJ Arnaud //MAJ Arnaud //MAJ Arnaud 
 		this.color = color;
 	}
-
-	public String getColor() {
-		return color;
-	}
-	public void setColor(String color) {
-		this.color = color;
-	}
 	public String getName() {
 		return name;
 	}
