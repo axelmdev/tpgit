@@ -2,7 +2,7 @@ package fr.axel.app;
 
 public class Git {
 	public int age;
-	public String creatrice;
+	public String creator;
 	public String slogan;
 	
 	public int getAge() {
