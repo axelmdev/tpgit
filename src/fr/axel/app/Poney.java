@@ -17,7 +17,7 @@ public class Poney {
 	public void setColor(String color) {
 		this.color = color;
 	}
-	public String getName() {
+	public String getName() { //MAJ Arnaud
 		return name;
 	}
 	public void setName(String name) {
