@@ -12,10 +12,10 @@ public class Git {
 		this.age = age;
 	}
 	public String getCreator() {
-		return creatrice;
+		return creator;
 	}
 	public void setCreator(String creator) {
-		this.creatrice = creator;
+		this.creator = creator;
 	}
 	public String getSlogan() {
 		return slogan;
