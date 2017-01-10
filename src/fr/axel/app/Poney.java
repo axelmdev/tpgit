@@ -17,8 +17,13 @@ public class Poney {
 	public void setColor(String color) {
 		this.color = color;
 	}
+<<<<<<< HEAD
 	public String getName() {
 		return name_poney;
+=======
+	public String getName() { //MAJ Arnaud
+		return name;
+>>>>>>> 3ea516e04d9777e0d0923f1e6dab0a550a770781
 	}
 	public void setName(String name_poney) {
 		this.name_poney = name_poney;
