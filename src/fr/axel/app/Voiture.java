@@ -7,6 +7,7 @@ public class Voiture {
 	public String color;
 	
 	public int getAge() {
+            this.age = this.age + this.age;
 		return age;
 	}
 	public void setAge(int age) {
@@ -29,7 +30,5 @@ public class Voiture {
 	}
 	public void setColor(String color) {
 		this.color = color;
-	}
-	
-	
+	}	
 }
