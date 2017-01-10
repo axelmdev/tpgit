@@ -4,6 +4,7 @@ public class Poney {
 	public int age;
 	public String color;
 	public String name;
+
 	public int getAge() {
 		return age;
 	}
@@ -21,7 +22,5 @@ public class Poney {
 	}
 	public void setName( String name) {
 		this.name = name;
-	}
-	
-	
+	}	
 }
