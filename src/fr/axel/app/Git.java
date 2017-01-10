@@ -2,7 +2,7 @@ package fr.axel.app;
 
 public class Git {
 	public int age;
-	public String creator;
+	public String creatrice;
 	public String slogan;
 	
 	public int getAge() {
@@ -12,10 +12,10 @@ public class Git {
 		this.age = age;
 	}
 	public String getCreator() {
-		return creator;
+		return creatrice;
 	}
 	public void setCreator(String creator) {
-		this.creator = creator;
+		this.creatrice = creator;
 	}
 	public String getSlogan() {
 		return slogan;
