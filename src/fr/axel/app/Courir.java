@@ -2,9 +2,9 @@ package fr.axel.app;
 
 public class Courir {
 	public int rank;
-	private Jockey id;
-	private Course id;
-	private Poney id;
+	private Jockey jockey;
+	private Course course;
+	private Poney poney;
 	
 	public int getRank() {
 		return rank;
@@ -12,22 +12,24 @@ public class Courir {
 	public void setRank(int rank) {
 		this.rank = rank;
 	}
-	public Jockey getId() {
-		return id;
+	
+	public Jockey getJockey() {
+		return jockey;
 	}
-	public void setId(Jockey id) {
-		this.id = id;
+	public void setJockey(Jockey jockey) {
+		this.jockey = jockey;
 	}
-	public Course getId() {
-		return id;
+	public Course getCourse() {
+		return course;
 	}
-	public void setId(Course id) {
-		this.id = id;
+	public void setCourse(Course course) {
+		this.course = course;
 	}
-	public Poney getId() {
-		return id;
+	public Poney getPoney() {
+		return poney;
 	}
-	public void setId(Poney id) {
-		this.id = id;
+	public void setPoney(Poney poney) {
+		this.poney = poney;
 	}
+
 }

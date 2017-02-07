@@ -4,6 +4,7 @@ public class Poney {
 	public int id;
 	public String name;
 	public String weight;
+	
 	public String getName() {
 		return name;
 	}
