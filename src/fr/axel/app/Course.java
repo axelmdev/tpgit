@@ -1,8 +1,7 @@
 package fr.axel.app;
 
 import java.sql.Date;
-
-public class Course {
+public class Course{
 	
 	public int id;
 	public Date date;
@@ -16,6 +15,4 @@ public class Course {
 	public int getId() {
 		return id;
 	}
-
-	
 }
